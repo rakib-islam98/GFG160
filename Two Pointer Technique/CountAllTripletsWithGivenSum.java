@@ -20,6 +20,7 @@ class Solution {
                 {
                    if (arr[j] == arr[k]) 
                    {
+                        int num=k-j+1;
                         cnt += (num * (num - 1)) / 2;
                         break; // Break because no more valid pairs for this i
                    }
